@@ -1,0 +1,168 @@
+h1{font-family:"Arial";
+	color:navy;
+text-align:center;}
+h2{color:navy;
+text-align:center;}
+table{width:100%;
+border-collapse:collapse;
+color: white;
+}
+th,td{border:1px solid;}
+th{background-color: navy;}
+tr,td{background-color:blue}
+img{width:200px;
+height:auto;}
+body{background-color:grey;}
+img.align-center{display:block;
+margin:0px;}
+.center {display:block;
+margin-left:auto;
+margin-right:auto;} 
+nav{display:flex;
+gap:30px;
+background-color:white;
+paddling:10px;
+}
+&copy{text-align: center;}
+article{margin-bottom:20px;}
+
+aricle h2{font-size:1.5 em;
+margin-bottom:10px;}
+.article-image{width:100%;
+height:auto;
+margin:10px 0;
+border-radius:8px;}
+footer{text-align:center;
+padding:10px;
+font-size:0.9em;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+.content {
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+.content {
+    padding: 20px;
+}
+
+.headline {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.headline {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.contact-info p::before {
+  margin-right: 8px;
+}
+
+.contact-info p.email::before {
+  content: "📧";
+}
+
+.contact-info p.phone::before {
+  content: "📞";
+}
